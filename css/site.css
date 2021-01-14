@@ -18,6 +18,8 @@
             display: flex;
         }
     }
- .card-columns{
-    align-content: center;
- }   
+ 
+ 
+ .btnWide{
+    width: 100%;
+}  
