@@ -51,9 +51,4 @@
         document.getElementById("output").innerText = "";
     
 
-    }
-    
-
-
-
-    
+}   
