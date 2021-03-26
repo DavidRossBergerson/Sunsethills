@@ -23,6 +23,10 @@
  .btnWide{
     width: 100%;
 }
-p{
+.textIndent{
     text-indent: 30pt;
-}  
+} 
+
+body{
+    background-color: whitesmoke;
+}

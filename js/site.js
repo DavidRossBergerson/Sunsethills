@@ -32,11 +32,17 @@
 
         }  
         
-        if(acendingArray.length == 1){
+        if (isNaN(bldg1) || isNaN(bldg2) || isNaN(bldg3) || isNaN(bldg4) || isNaN(bldg5)) 
+        {
+           
+            document.getElementById("output").innerText = "Please enter a number in each box!";
+        }
+       
+           else if(acendingArray.length == 1){
             document.getElementById("output").innerText = `Their is 1 building that can see the Sunset:  [${acendingArray.join(', ')}]`;
         }else
         {
-            document.getElementById("output").innerText = `Their are ${acendingArray.length} buildings that can see the Sunsut:  [${acendingArray.join(', ')}]`;
+            document.getElementById("output").innerText = `Their are ${acendingArray.length} buildings that can see the Sunset:  [${acendingArray.join(', ')}]`;
         }
         
     }

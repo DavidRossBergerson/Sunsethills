@@ -21,9 +21,7 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="solve.html">Solve</a>
-                </li>
+              
                 <li class="nav-item">
                     <a class="nav-link" href="code.html">Code</a>
                 </li>
@@ -39,24 +37,76 @@
 
     <header class="jumbotron jumbotron-fluid">
         <div class="container hero">
-            <h1 class="display-3">Welcome to Sunset Hills</h1>
-            <p> Sunset Hills is coding challenge to assess a Programmers ability to work with Arrays.
-                This challenge has been used by technology companies such as Amazon.
-                                                            <!-- Figure out how to make a hyperlink -->
-                It was also featured on a blog post titled “Amazon Interview Experience".
+            <h1 class="display-3">Sunset Hills</h1>
+            <p>Imagine an array of buildings is facing the sun. 
+                The heights of each building from West to East is given in an integer array. 
+                You have to tell which buildings will be able to see the sunset. 
+                We'll be using numbers instead of buildings.
+                The numbers represent the height of the buildings.
             </p>
-            <hr>
-            <p>To learn more, Click Below!</p>
+            <hr class="my-2">
+            <p>Enter your numbers below.</p>
             <p class="lead">
-                <a class="btn btn-primary btn-lg" href="solve.html" role="button" style="text-indent: 0;">See It Action</a>
+                
             </p>
         </div>
     </header>
+
+
+    <div class="container container-fluid pt-5">
+        <div class="row">
+            <div class="col form-group">
+                <input class="form-control" id="input1"  placeholder="Enter Number"  type="number" />
+            </div>
+            <div class="col form-group">
+                <input class="form-control" id="input2"  placeholder="Enter Number"  type="number" />
+            </div>
+            <div class="col form-group">
+                <input class="form-control" id="input3"  placeholder="Enter Number"  type="number" />
+            </div>
+            <div class="col form-group">
+                <input class="form-control" id="input4"  placeholder="Enter Number"  type="number" />
+            </div>
+            <div class="col form-group">
+                <input class="form-control" id="input5"  placeholder="Enter Number"  type="number" />
+            </div>
+            <div class="col form-group">
+                <input class="form-control" id="input6"  placeholder="Enter Number"  type="number" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 offset-3 form-group">
+                <button class="btn btn-outline-primary btnWide" id="btnActivate">Activate!</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 offset-3 form-group">
+                <div class="row">
+                    <div class="col-6 offset-3 form-group">
+                        <button class="btn btn-outline-dark btnWide" id="btnClear">Clear</button>
+                        <hr />
+                        <h3 class="offset-4">Results</h3>
+                        <hr />
+                        <div class="row">
+                            <div class="col">
+                                <div class="h2 container border border-primary rounded p-3" id="output"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+                    
+             
+
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <script src="js/site.js"></script>
+</body>
 </html>
